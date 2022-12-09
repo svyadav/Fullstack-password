@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+
+/* .login-wrapper{
+  text-align: center;
+}
+
+.login-main-wrappper{
+  width:500px;
+  margin-left:35%;
+  margin-right:35%;
+} */
+
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+.login {
+  width: 400px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.btn-login {
+  width: 100%;
+}
+
+.button-wrapper {
+  margin: 40px 0px; 
+}
+
+.signupmargin{
+  margin:20px;
+
+}
+
+
+
+/* dashboard */
+
+.dash-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/* Enter email page */
+
+.emailwrapper{
+  background: #fff;
+  border: 1px solid #dddfe2;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  padding: 2rem;
+
+}
+
+.reset-wrapper{
+  text-align: center;
+}
+
+.reset-main-wrappper{
+  width:500px;
+  margin-left:35%;
+  margin-right:35%;
+  margin-top:5rem;
+}
