@@ -61,11 +61,9 @@ const ForgetPassword = () => {
   }, []);
   return (
     <>
-      <div className="reset-wrapper">
-        <h1>Enter your new password</h1>
-      </div>
-
-      <div className="reset-main-wrappper">
+      <div className="emailwrapper">
+      <div className="email">
+      <h1>Enter your new password</h1>
         <Form>
             {message ? <p style={{color:"red"}}>Password changed succesfully</p> :""}
           <Form.Group className="mb-3">
@@ -80,6 +78,7 @@ const ForgetPassword = () => {
           <Button variant="success" onClick={sendPassword}>send</Button>
         </Form>
         <ToastContainer/>
+      </div>
       </div>
     </>
   );

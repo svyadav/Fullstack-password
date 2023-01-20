@@ -38,7 +38,7 @@ const PasswordReset = () => {
   return (
     <>
     <div className="emailwrapper">
-    <div className="reset-wrapper">
+    <div className="email">
         <div style={{marginTop:"50px"}}>
         <h1>Enter your email here</h1>
         </div>
@@ -46,9 +46,9 @@ const PasswordReset = () => {
         {message ? <p style={{color:"green",textDecoration:"bold"}}>Password reset link sent successfully</p>:""}
         </div>
         
-      </div>
      
-      <div className="reset-main-wrappper">
+     
+      <div>
         <Form>
           <Form.Group className="mb-3">
             <Form.Label>Email address</Form.Label>
@@ -63,6 +63,7 @@ const PasswordReset = () => {
             Generate Link
           </Button>
         </Form>
+      </div>
       </div>
     </div>
       

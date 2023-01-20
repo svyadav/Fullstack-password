@@ -37,15 +37,7 @@
   }
 }
 
-/* .login-wrapper{
-  text-align: center;
-}
 
-.login-main-wrappper{
-  width:500px;
-  margin-left:35%;
-  margin-right:35%;
-} */
 
 
 .login-wrapper {
@@ -54,6 +46,10 @@
   align-items: center;
   height: 100vh;
   text-align: center;
+  background-image: url('../public/reset.jpg');
+  background-position: center;
+  background-size: cover;
+
 }
 .login {
   width: 400px;
@@ -92,21 +88,25 @@
 /* Enter email page */
 
 .emailwrapper{
-  background: #fff;
-  border: 1px solid #dddfe2;
-  box-shadow: 0px 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-  border-radius: 8px;
-  padding: 2rem;
-
-}
-
-.reset-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   text-align: center;
+  background-image: url('../public/reset.jpg');
+  background-position: center;
+  background-size: cover;
+
 }
 
-.reset-main-wrappper{
-  width:500px;
-  margin-left:35%;
-  margin-right:35%;
-  margin-top:5rem;
+.email{
+  width: 600px;
+background: #fff;
+border: 1px solid #dddfe2;
+box-shadow: 0px 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+border-radius: 8px;
+padding: 2rem;
+
 }
+
+

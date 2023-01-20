@@ -1,5 +1,5 @@
 let env={
-    apiurl:"https://resetpassword-5oex.onrender.com"
+    apiurl:"http://localhost:8000"
 }
 
 export default env
