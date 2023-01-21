@@ -13,7 +13,7 @@ const PasswordReset = () => {
   };
 
   const sendLink = async(e) => {
-    // e.preventDefault()
+    e.preventDefault()
     const res=await fetch(`${env.apiurl}/users/sendpasswordLink`,{ 
         method:"POST",
         headers:{
